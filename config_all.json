@@ -1,0 +1,26 @@
+{
+    "model_name": "jester_conv3D_9_classes_all_samples",
+    "checkpoint": "./model_best_all.pth.tar",
+
+    "train_data_folder": "D:\\gesture_recognition\\gesture_frames_folder\\",
+    "val_data_folder":  "D:\\gesture_recognition\\gesture_frames_folder\\",
+    "train_data_csv":   "D:\\gesture_recognition\\csv_files\\train.csv",
+    "val_data_csv":     "D:\\gesture_recognition\\csv_files\\val.csv",
+    "labels_csv":       "D:\\gesture_recognition\\csv_files\\labels.csv",
+
+    "num_workers": 1,
+
+    "output_dir": "trainings/jpeg_model/",
+
+    "num_classes": 2,
+    "batch_size": 10,
+    "clip_size": 18,
+    "nclips": 1,
+    "step_size": 2,
+    "lr": 0.001,
+    "last_lr": 0.00001,
+    "momentum": 0.9,
+    "weight_decay": 0.00001,
+    "num_epochs": 20,
+    "print_freq": 1
+}
